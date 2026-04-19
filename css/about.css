@@ -31,3 +31,20 @@
 .aboutImage{
     flex: 1 1 10rem;
 }
+/*mobile responsiveness for all devices*/
+/*oppo a9*/
+@media(max-width:400px){
+    .aboutImage{
+        img{
+            width: 100%;
+        }
+    }
+    .aboutText{
+        h1{
+            text-align: center;
+        }
+        p{
+            width: 100%;
+        }
+    }
+}

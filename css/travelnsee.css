@@ -185,8 +185,8 @@ footer{
         padding: 0.5rem;
         border-radius: 0.5rem;
     }
-    .input:invalid{
-        background-color: orangered;
+    input:invalid{
+        border: 2px solid orangered;
     }
 }
 .first{
