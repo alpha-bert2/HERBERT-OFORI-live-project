@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Coiny&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*global styling for css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+/*css styling for header*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+/*css styling for nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 9vh;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    ol{
+        display: flex;
+        list-style: none;
+        flex: 1 1 10rem;
+        gap: 1.5rem;
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+    span{
+        flex: 1 1 10rem;
+        display: flex;
+        gap: 1rem;
+        text-align: center;
+        i{
+            font-size: 1.5rem;
+            color: orangered;
+        }
+    }
+}
+.end{
+    justify-content: end;
+}
+/*css styling for hero and banner section*/
+#heroBanner{
+    min-height: 80vh;
+    width: 90%;
+    margin: auto;
+}
+.align{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+/*css for banner*/
+.banner{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 16rem;
+    gap: 2rem;
+    justify-content: center;
+    h1{
+        font-size: 5rem;
+        line-height: 5rem;
+        span{
+            color: transparent;
+            background: linear-gradient(to right,orangered,yellow);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+    }
+    p{
+        display: flex;
+        width: 80%;
+    }
+    .book{
+        background-color: orangered;
+        color: white;
+        width: 50%;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+    /*css for hero*/
+}
+.heroImage{
+    display: flex;
+    flex: 1 1 16rem;
+    justify-content: end;
+}
