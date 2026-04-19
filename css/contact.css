@@ -14,15 +14,25 @@
     align-items: center;  
     padding: 1rem;
     gap: 1rem;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.5), rgba(255, 68, 0, 0.281)),
+    url(../images/SKV\ SMART\ TRAVEL\ AND\ TOURISM\ LLC.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .conText{
     display: flex;
     flex-direction: column;
     flex: 1 1 10rem;
     gap: 1rem;
+    color: white;
+    i{
+        color: orangered;
+    }
     h1{
         font-size: 3rem;
         text-align: center;
+        line-height: 3.2rem;
 
     }
     p{
@@ -40,6 +50,7 @@
         border-radius: .5rem;
         justify-content: center;
         align-items: center;
+        background-color: white;
         gap: 1rem;
         input{
             padding: 0.5rem;
@@ -54,6 +65,9 @@
     width: 60%;
     justify-content: center;
     transition: all 0.8s ease;
+    background-color: white;
+    color: black;
+    border-radius: .5rem;
 }
 .chat:hover{
     transform: scale(1.02);
