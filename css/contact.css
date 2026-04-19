@@ -1,0 +1,25 @@
+/*css for contact*/
+#contact{
+    min-height: 50vh;
+    width: 90%;
+    margin: auto;
+}
+/*css for align contact*/
+.alignContact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 2rem; 
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);      
+}
+.conText{
+    flex: 1 1 10rem;
+}
+.conMage{
+    flex: 1 1 10rem;
+    form{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.26);
+    }
+}

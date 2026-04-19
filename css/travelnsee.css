@@ -121,6 +121,9 @@ nav{
     gap: 1rem;
     align-items: center;
     padding: 2rem 0rem;
+    h2{
+        color: white;
+    }
 }
 .pack{
     display: flex;
@@ -276,5 +279,12 @@ footer{
         img{
             width: 100%;
         }
+    }
+}
+/*z fold */
+@media(max-width:344px){
+    .start{
+        display: flex;
+        justify-content: center;
     }
 }
