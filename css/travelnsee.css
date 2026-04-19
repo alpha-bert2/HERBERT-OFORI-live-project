@@ -16,7 +16,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: white;
+    background-color: rgb(240, 235, 233);
 }
 /*css styling for nav*/
 nav{
@@ -145,6 +145,58 @@ nav{
 }
 .travelPack:hover{
     transform: scale(1.02);
+}
+/*footer section*/
+footer{
+    background-color: rgb(240, 235, 233);
+    min-height: 25vh;
+}
+.alignFoot{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem 2rem 0rem;
+    flex-wrap: wrap;
+}
+.footies{
+    flex: 1 1 10rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    ol{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    i{
+        font-size: 1.5rem;
+    }
+    input{
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .input:invalid{
+        background-color: orangered;
+    }
+}
+.first{
+    i{
+        font-size: 2rem;
+        color: orangered;
+    }
+    span{
+        p{
+            color: orangered;
+        }
+    }
+
 }
 /*mobile responsiveness for all devices*/
 /*galaxy a5 */
