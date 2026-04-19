@@ -55,7 +55,7 @@
         input{
             padding: 0.5rem;
         }
-    }
+}
 }
 .chat{
     display: flex;
@@ -67,6 +67,7 @@
     transition: all 0.8s ease;
     background-color: white;
     color: black;
+    gap: .5rem;
     border-radius: .5rem;
 }
 .chat:hover{

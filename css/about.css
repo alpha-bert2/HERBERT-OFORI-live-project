@@ -32,8 +32,8 @@
     flex: 1 1 10rem;
 }
 /*mobile responsiveness for all devices*/
-/*oppo a9*/
-@media(max-width:400px){
+/*iphone xr*/
+@media(max-width:414px){
     .aboutImage{
         img{
             width: 100%;
@@ -47,4 +47,7 @@
             width: 100%;
         }
     }
+.end{
+    justify-content: center;
+}
 }
