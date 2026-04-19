@@ -33,18 +33,28 @@
 }
 /*css for align found*/
 #founders{
-    min-height: 25vh;
+    min-height: 20vh;
     background-color: rgb(240, 235, 233);
 }
 .alignFound{
     width: 90%;
     margin: auto;
     padding: 2rem 0rem 0rem 0rem;
+    
+    span{
+        h4{
+            color: orangered;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+    }
 }
 .card{
     display: flex;  
     flex-wrap: wrap; 
-    gap: 1rem; 
+    gap: .5rem; 
 }
 .foundCard{
     display: flex;
@@ -53,7 +63,7 @@
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
     border-radius: 1rem;
     background-color: white;
-
+    transition: all .8s ease;
     
     span{
         flex: 1 1 2rem;
@@ -70,6 +80,9 @@
         flex: 1 1 2rem;
         border-radius: 1rem;
     }
+}
+.foundCard:hover{
+    transform: scale(1.02);
 }
 /*mobile responsiveness for all devices*/
 /*iphone xr*/
